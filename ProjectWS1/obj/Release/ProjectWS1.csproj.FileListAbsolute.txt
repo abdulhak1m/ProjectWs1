@@ -1,0 +1,12 @@
+D:\Проекты C#\ProjectWS1\ProjectWS1\bin\Release\ProjectWS1.exe.config
+D:\Проекты C#\ProjectWS1\ProjectWS1\bin\Release\ProjectWS1.exe
+D:\Проекты C#\ProjectWS1\ProjectWS1\bin\Release\ProjectWS1.pdb
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.csprojAssemblyReference.cache
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.Form1.resources
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.Properties.Resources.resources
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.csproj.GenerateResource.cache
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.csproj.CoreCompileInputs.cache
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.exe
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.pdb
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.Form2.resources
+D:\Проекты C#\ProjectWS1\ProjectWS1\obj\Release\ProjectWS1.Form3.resources
