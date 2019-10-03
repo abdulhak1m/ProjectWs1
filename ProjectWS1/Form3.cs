@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Configuration;
 using System.Windows.Forms;
 
 namespace ProjectWS1
 {
     public partial class Form3 : Form
     {
+
+        readonly static string MyConnection = ConfigurationManager.ConnectionStrings["DbConn"].ConnectionString;
         public Form3()
         {
             InitializeComponent();
@@ -22,6 +20,54 @@ namespace ProjectWS1
             panelTop.MouseUp += (s, e) => { move = 0; };
 
             btn_close.Click += (s, e) => { Close(); };
+            Exit.Click += (s, e) =>
+            {
+                ActiveForm.Hide();
+                Form1 form1 = new Form1();
+                form1.ShowDialog();
+                Close();
+            };
+
+            switch_add.Click += (s, e) => { panelAdd.BringToFront(); };
+            switch_view.Click += (s, e) => { panelView.BringToFront(); };
+        }
+
+        void Btn_add_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(txt_product.Text) && !string.IsNullOrEmpty(txt_manufacturer.Text) &&
+                    !string.IsNullOrEmpty(txt_characteristics.Text) && !string.IsNullOrEmpty(txt_price.Text))
+                {
+                    string query = $"INSERT INTO tbl_Ws2 ([Product], [Manufacturer], [Characteristics], [Price]) VALUES ('{txt_product.Text}', '{txt_manufacturer.Text}', '{txt_characteristics.Text}', '{txt_price.Text}')";
+                    using (SqlConnection sql = new SqlConnection(MyConnection))
+                    {
+                        sql.Open();
+                        SqlCommand command = new SqlCommand(query, sql);
+                        command.ExecuteNonQuery();
+                        MessageBox.Show("Добавление прошло успешно!", "Уведомление системы.", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Заполните все поля, обозначенные *.", "Уведомление системы.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message, ex.Source, MessageBoxButtons.OK, MessageBoxIcon.Error); }
+        }
+
+        void Form3_Load(object sender, EventArgs e)
+        {
+            DataTable data = new DataTable();
+            using(SqlConnection sql = new SqlConnection(MyConnection))
+            {
+                sql.Open();
+                string query = "SELECT * FROM tbl_Ws2";
+                SqlCommand command = new SqlCommand(query, sql);
+                SqlDataAdapter sda = new SqlDataAdapter(command);
+                sda.Fill(data);
+            }
+            dataGridView1.DataSource = data;
         }
     }
 }

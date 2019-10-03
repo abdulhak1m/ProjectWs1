@@ -57,7 +57,7 @@
             this.pnl_Top.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_Top.Location = new System.Drawing.Point(0, 0);
             this.pnl_Top.Name = "pnl_Top";
-            this.pnl_Top.Size = new System.Drawing.Size(845, 35);
+            this.pnl_Top.Size = new System.Drawing.Size(939, 35);
             this.pnl_Top.TabIndex = 0;
             // 
             // btn_close
@@ -70,9 +70,9 @@
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btn_close.ForeColor = System.Drawing.Color.White;
-            this.btn_close.Location = new System.Drawing.Point(804, 0);
+            this.btn_close.Location = new System.Drawing.Point(893, 0);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(41, 35);
+            this.btn_close.Size = new System.Drawing.Size(46, 35);
             this.btn_close.TabIndex = 1;
             this.btn_close.Text = "X";
             this.btn_close.UseVisualStyleBackColor = false;
@@ -80,18 +80,18 @@
             // txt_username
             // 
             this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_username.Location = new System.Drawing.Point(96, 112);
+            this.txt_username.Location = new System.Drawing.Point(107, 124);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(279, 20);
+            this.txt_username.Size = new System.Drawing.Size(310, 20);
             this.txt_username.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(466, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(518, 35);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(379, 352);
+            this.pictureBox1.Size = new System.Drawing.Size(421, 393);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -103,9 +103,9 @@
             this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Indigo;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(151, 251);
+            this.btnLogin.Location = new System.Drawing.Point(168, 277);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(117, 29);
+            this.btnLogin.Size = new System.Drawing.Size(130, 32);
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Войти";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -114,9 +114,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(90, 90);
+            this.label1.Location = new System.Drawing.Point(100, 99);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 19);
+            this.label1.Size = new System.Drawing.Size(155, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "Имя пользователя:";
             // 
@@ -124,25 +124,25 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Indigo;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(69, 133);
+            this.panel1.Location = new System.Drawing.Point(77, 147);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(314, 5);
+            this.panel1.Size = new System.Drawing.Size(349, 5);
             this.panel1.TabIndex = 5;
             // 
             // txt_password
             // 
             this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_password.Location = new System.Drawing.Point(102, 199);
+            this.txt_password.Location = new System.Drawing.Point(107, 224);
             this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(279, 20);
+            this.txt_password.Size = new System.Drawing.Size(310, 20);
             this.txt_password.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(94, 173);
+            this.label2.Location = new System.Drawing.Point(104, 191);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 19);
+            this.label2.Size = new System.Drawing.Size(74, 21);
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль:";
             // 
@@ -150,17 +150,17 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Indigo;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(70, 220);
+            this.panel2.Location = new System.Drawing.Point(78, 243);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(314, 5);
+            this.panel2.Size = new System.Drawing.Size(349, 5);
             this.panel2.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(68, 109);
+            this.pictureBox2.Location = new System.Drawing.Point(76, 120);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.Size = new System.Drawing.Size(28, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -168,9 +168,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(70, 194);
+            this.pictureBox3.Location = new System.Drawing.Point(76, 216);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox3.Size = new System.Drawing.Size(28, 28);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 6;
             this.pictureBox3.TabStop = false;
@@ -179,9 +179,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Indigo;
-            this.label3.Location = new System.Drawing.Point(92, 333);
+            this.label3.Location = new System.Drawing.Point(102, 368);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 19);
+            this.label3.Size = new System.Drawing.Size(221, 21);
             this.label3.TabIndex = 7;
             this.label3.Text = "Если нет аккаунта, нажите";
             // 
@@ -189,9 +189,9 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Indigo;
-            this.linkLabel1.Location = new System.Drawing.Point(296, 333);
+            this.linkLabel1.Location = new System.Drawing.Point(329, 368);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(48, 19);
+            this.linkLabel1.Size = new System.Drawing.Size(54, 21);
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "здесь";
@@ -205,18 +205,18 @@
             this.btn_show.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_show.ForeColor = System.Drawing.Color.White;
             this.btn_show.Image = ((System.Drawing.Image)(resources.GetObject("btn_show.Image")));
-            this.btn_show.Location = new System.Drawing.Point(385, 194);
+            this.btn_show.Location = new System.Drawing.Point(428, 214);
             this.btn_show.Name = "btn_show";
-            this.btn_show.Size = new System.Drawing.Size(40, 28);
+            this.btn_show.Size = new System.Drawing.Size(44, 31);
             this.btn_show.TabIndex = 3;
             this.btn_show.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(845, 387);
+            this.ClientSize = new System.Drawing.Size(939, 428);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox3);
@@ -231,7 +231,7 @@
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_username);
             this.Controls.Add(this.pnl_Top);
-            this.Font = new System.Drawing.Font("Constantia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
