@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.panelTop = new System.Windows.Forms.Panel();
             this.btn_close = new System.Windows.Forms.Button();
@@ -55,13 +56,18 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txt_Id = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dbWSDataSet = new ProjectWS1.dbWSDataSet();
+            this.tblWs1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tbl_Ws1TableAdapter = new ProjectWS1.dbWSDataSetTableAdapters.tbl_Ws1TableAdapter();
             this.panelTop.SuspendLayout();
             this.panelMunu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelAdd.SuspendLayout();
             this.panelView.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbWSDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblWs1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop
@@ -156,6 +162,7 @@
             // 
             // panelAdd
             // 
+            this.panelAdd.Controls.Add(this.comboBox1);
             this.panelAdd.Controls.Add(this.panel4);
             this.panelAdd.Controls.Add(this.btn_add);
             this.panelAdd.Controls.Add(this.panel2);
@@ -168,7 +175,6 @@
             this.panelAdd.Controls.Add(this.txt_characteristics);
             this.panelAdd.Controls.Add(this.label4);
             this.panelAdd.Controls.Add(this.label1);
-            this.panelAdd.Controls.Add(this.txt_Id);
             this.panelAdd.Controls.Add(this.txt_product);
             this.panelAdd.Controls.Add(this.label6);
             this.panelAdd.Controls.Add(this.label5);
@@ -335,18 +341,36 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Indigo;
-            this.panel1.Location = new System.Drawing.Point(24, 98);
+            this.panel1.Location = new System.Drawing.Point(23, 117);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 6);
             this.panel1.TabIndex = 20;
             // 
-            // txt_Id
+            // comboBox1
             // 
-            this.txt_Id.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Id.Location = new System.Drawing.Point(24, 75);
-            this.txt_Id.Name = "txt_Id";
-            this.txt_Id.Size = new System.Drawing.Size(180, 19);
-            this.txt_Id.TabIndex = 16;
+            this.comboBox1.DataSource = this.tblWs1BindingSource;
+            this.comboBox1.DisplayMember = "Id";
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(23, 90);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(180, 28);
+            this.comboBox1.TabIndex = 21;
+            this.comboBox1.ValueMember = "Id";
+            // 
+            // dbWSDataSet
+            // 
+            this.dbWSDataSet.DataSetName = "dbWSDataSet";
+            this.dbWSDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tblWs1BindingSource
+            // 
+            this.tblWs1BindingSource.DataMember = "tbl_Ws1";
+            this.tblWs1BindingSource.DataSource = this.dbWSDataSet;
+            // 
+            // tbl_Ws1TableAdapter
+            // 
+            this.tbl_Ws1TableAdapter.ClearBeforeFill = true;
             // 
             // Form3
             // 
@@ -373,6 +397,8 @@
             this.panelAdd.PerformLayout();
             this.panelView.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dbWSDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblWs1BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -405,6 +431,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txt_Id;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private dbWSDataSet dbWSDataSet;
+        private System.Windows.Forms.BindingSource tblWs1BindingSource;
+        private dbWSDataSetTableAdapters.tbl_Ws1TableAdapter tbl_Ws1TableAdapter;
     }
 }

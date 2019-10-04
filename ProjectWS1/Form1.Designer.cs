@@ -80,7 +80,7 @@
             // txt_username
             // 
             this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_username.Location = new System.Drawing.Point(107, 124);
+            this.txt_username.Location = new System.Drawing.Point(107, 126);
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(310, 19);
             this.txt_username.TabIndex = 1;
@@ -132,7 +132,7 @@
             // txt_password
             // 
             this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_password.Location = new System.Drawing.Point(107, 219);
+            this.txt_password.Location = new System.Drawing.Point(107, 222);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(310, 19);
             this.txt_password.TabIndex = 1;
@@ -189,7 +189,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.Indigo;
-            this.linkLabel1.Location = new System.Drawing.Point(329, 368);
+            this.linkLabel1.Location = new System.Drawing.Point(315, 368);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(54, 20);
             this.linkLabel1.TabIndex = 8;

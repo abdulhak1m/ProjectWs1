@@ -44,7 +44,7 @@ namespace ProjectWS1
                 if (!string.IsNullOrEmpty(txt_product.Text) && !string.IsNullOrEmpty(txt_manufacturer.Text) &&
                     !string.IsNullOrEmpty(txt_characteristics.Text) && !string.IsNullOrEmpty(txt_price.Text))
                 {
-                    string query = $"INSERT INTO tbl_Ws2 ([Product], [Manufacturer], [Characteristics], [Price], [UserId]) VALUES ('{txt_product.Text}', '{txt_manufacturer.Text}', '{txt_characteristics.Text}', '{txt_price.Text}', '{txt_Id.Text}')";
+                    string query = $"INSERT INTO tbl_Ws2 ([Product], [Manufacturer], [Characteristics], [Price], [UserId]) VALUES ('{txt_product.Text}', '{txt_manufacturer.Text}', '{txt_characteristics.Text}', '{txt_price.Text}', '{comboBox1.Text}')";
                     using (SqlConnection sql = new SqlConnection(MyConnection))
                     {
                         sql.Open();
@@ -82,6 +82,8 @@ namespace ProjectWS1
 
         void Form3_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "dbWSDataSet.tbl_Ws1". При необходимости она может быть перемещена или удалена.
+            this.tbl_Ws1TableAdapter.Fill(this.dbWSDataSet.tbl_Ws1);
             Refresh();
         }
 
