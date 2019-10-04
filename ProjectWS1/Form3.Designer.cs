@@ -33,10 +33,12 @@
             this.btn_close = new System.Windows.Forms.Button();
             this.panelMunu = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Exit = new System.Windows.Forms.Button();
             this.switch_view = new System.Windows.Forms.Button();
             this.switch_add = new System.Windows.Forms.Button();
             this.panelAdd = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btn_add = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -47,12 +49,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_product = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.Exit = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.btn_add = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelView = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_Id = new System.Windows.Forms.TextBox();
             this.panelTop.SuspendLayout();
             this.panelMunu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -112,6 +115,19 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // Exit
+            // 
+            this.Exit.BackColor = System.Drawing.Color.BlueViolet;
+            this.Exit.FlatAppearance.BorderSize = 0;
+            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Exit.ForeColor = System.Drawing.Color.White;
+            this.Exit.Location = new System.Drawing.Point(36, 339);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(163, 50);
+            this.Exit.TabIndex = 0;
+            this.Exit.Text = "Выход";
+            this.Exit.UseVisualStyleBackColor = false;
+            // 
             // switch_view
             // 
             this.switch_view.BackColor = System.Drawing.Color.BlueViolet;
@@ -144,6 +160,7 @@
             this.panelAdd.Controls.Add(this.btn_add);
             this.panelAdd.Controls.Add(this.panel2);
             this.panelAdd.Controls.Add(this.panel3);
+            this.panelAdd.Controls.Add(this.panel1);
             this.panelAdd.Controls.Add(this.panel5);
             this.panelAdd.Controls.Add(this.txt_price);
             this.panelAdd.Controls.Add(this.label2);
@@ -151,7 +168,9 @@
             this.panelAdd.Controls.Add(this.txt_characteristics);
             this.panelAdd.Controls.Add(this.label4);
             this.panelAdd.Controls.Add(this.label1);
+            this.panelAdd.Controls.Add(this.txt_Id);
             this.panelAdd.Controls.Add(this.txt_product);
+            this.panelAdd.Controls.Add(this.label6);
             this.panelAdd.Controls.Add(this.label5);
             this.panelAdd.Controls.Add(this.label3);
             this.panelAdd.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -163,125 +182,10 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Indigo;
-            this.panel4.Location = new System.Drawing.Point(61, 346);
+            this.panel4.Location = new System.Drawing.Point(275, 435);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(310, 6);
             this.panel4.TabIndex = 17;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Indigo;
-            this.panel2.Location = new System.Drawing.Point(61, 194);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(310, 6);
-            this.panel2.TabIndex = 18;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Indigo;
-            this.panel3.Location = new System.Drawing.Point(61, 265);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(310, 6);
-            this.panel3.TabIndex = 19;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Indigo;
-            this.panel5.Location = new System.Drawing.Point(61, 113);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(310, 6);
-            this.panel5.TabIndex = 20;
-            // 
-            // txt_price
-            // 
-            this.txt_price.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_price.Location = new System.Drawing.Point(61, 322);
-            this.txt_price.Name = "txt_price";
-            this.txt_price.Size = new System.Drawing.Size(310, 20);
-            this.txt_price.TabIndex = 13;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(56, 300);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 21);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "Цена*:";
-            // 
-            // txt_manufacturer
-            // 
-            this.txt_manufacturer.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_manufacturer.Location = new System.Drawing.Point(61, 171);
-            this.txt_manufacturer.Name = "txt_manufacturer";
-            this.txt_manufacturer.Size = new System.Drawing.Size(310, 20);
-            this.txt_manufacturer.TabIndex = 14;
-            // 
-            // txt_characteristics
-            // 
-            this.txt_characteristics.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_characteristics.Location = new System.Drawing.Point(61, 242);
-            this.txt_characteristics.Name = "txt_characteristics";
-            this.txt_characteristics.Size = new System.Drawing.Size(310, 20);
-            this.txt_characteristics.TabIndex = 15;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(56, 149);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 21);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Производитель*:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(56, 220);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(151, 21);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Характеристики*:";
-            // 
-            // txt_product
-            // 
-            this.txt_product.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_product.Location = new System.Drawing.Point(61, 90);
-            this.txt_product.Name = "txt_product";
-            this.txt_product.Size = new System.Drawing.Size(310, 20);
-            this.txt_product.TabIndex = 16;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(56, 68);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 21);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Товар*:";
-            // 
-            // Exit
-            // 
-            this.Exit.BackColor = System.Drawing.Color.BlueViolet;
-            this.Exit.FlatAppearance.BorderSize = 0;
-            this.Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Exit.ForeColor = System.Drawing.Color.White;
-            this.Exit.Location = new System.Drawing.Point(36, 339);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(163, 50);
-            this.Exit.TabIndex = 0;
-            this.Exit.Text = "Выход";
-            this.Exit.UseVisualStyleBackColor = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.DarkViolet;
-            this.label5.Location = new System.Drawing.Point(207, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(485, 21);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Поля отмеченные (*) являются обязательными к заполнению";
             // 
             // btn_add
             // 
@@ -289,13 +193,115 @@
             this.btn_add.FlatAppearance.BorderSize = 0;
             this.btn_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_add.ForeColor = System.Drawing.Color.White;
-            this.btn_add.Location = new System.Drawing.Point(127, 386);
+            this.btn_add.Location = new System.Drawing.Point(364, 475);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(163, 50);
             this.btn_add.TabIndex = 0;
             this.btn_add.Text = "Добавить";
             this.btn_add.UseVisualStyleBackColor = false;
             this.btn_add.Click += new System.EventHandler(this.Btn_add_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Indigo;
+            this.panel2.Location = new System.Drawing.Point(275, 283);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(310, 6);
+            this.panel2.TabIndex = 18;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Indigo;
+            this.panel3.Location = new System.Drawing.Point(275, 354);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(310, 6);
+            this.panel3.TabIndex = 19;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Indigo;
+            this.panel5.Location = new System.Drawing.Point(275, 202);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(310, 6);
+            this.panel5.TabIndex = 20;
+            // 
+            // txt_price
+            // 
+            this.txt_price.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_price.Location = new System.Drawing.Point(275, 411);
+            this.txt_price.Name = "txt_price";
+            this.txt_price.Size = new System.Drawing.Size(310, 19);
+            this.txt_price.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(270, 389);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Цена*:";
+            // 
+            // txt_manufacturer
+            // 
+            this.txt_manufacturer.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_manufacturer.Location = new System.Drawing.Point(275, 260);
+            this.txt_manufacturer.Name = "txt_manufacturer";
+            this.txt_manufacturer.Size = new System.Drawing.Size(310, 19);
+            this.txt_manufacturer.TabIndex = 14;
+            // 
+            // txt_characteristics
+            // 
+            this.txt_characteristics.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_characteristics.Location = new System.Drawing.Point(275, 331);
+            this.txt_characteristics.Name = "txt_characteristics";
+            this.txt_characteristics.Size = new System.Drawing.Size(310, 19);
+            this.txt_characteristics.TabIndex = 15;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(270, 238);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 20);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Производитель*:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(270, 309);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(144, 20);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Характеристики*:";
+            // 
+            // txt_product
+            // 
+            this.txt_product.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_product.Location = new System.Drawing.Point(275, 179);
+            this.txt_product.Name = "txt_product";
+            this.txt_product.Size = new System.Drawing.Size(310, 19);
+            this.txt_product.TabIndex = 16;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.DarkViolet;
+            this.label5.Location = new System.Drawing.Point(207, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(480, 20);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Поля отмеченные (*) являются обязательными к заполнению";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(270, 157);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 20);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Товар*:";
             // 
             // panelView
             // 
@@ -317,18 +323,44 @@
             this.dataGridView1.Size = new System.Drawing.Size(872, 306);
             this.dataGridView1.TabIndex = 0;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(19, 53);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(33, 20);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Id*:";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Indigo;
+            this.panel1.Location = new System.Drawing.Point(24, 98);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(180, 6);
+            this.panel1.TabIndex = 20;
+            // 
+            // txt_Id
+            // 
+            this.txt_Id.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_Id.Location = new System.Drawing.Point(24, 75);
+            this.txt_Id.Name = "txt_Id";
+            this.txt_Id.Size = new System.Drawing.Size(180, 19);
+            this.txt_Id.TabIndex = 16;
+            // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1133, 606);
-            this.Controls.Add(this.panelView);
             this.Controls.Add(this.panelAdd);
+            this.Controls.Add(this.panelView);
             this.Controls.Add(this.panelMunu);
             this.Controls.Add(this.panelTop);
-            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -371,5 +403,8 @@
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Panel panelView;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_Id;
     }
 }

@@ -161,7 +161,7 @@
             this.linkAutho.LinkColor = System.Drawing.Color.Indigo;
             this.linkAutho.Location = new System.Drawing.Point(438, 277);
             this.linkAutho.Name = "linkAutho";
-            this.linkAutho.Size = new System.Drawing.Size(183, 21);
+            this.linkAutho.Size = new System.Drawing.Size(172, 20);
             this.linkAutho.TabIndex = 10;
             this.linkAutho.TabStop = true;
             this.linkAutho.Text = "<-- Окно авторизации";
@@ -219,7 +219,7 @@
             this.lblErrorRow.ForeColor = System.Drawing.Color.Red;
             this.lblErrorRow.Location = new System.Drawing.Point(13, 45);
             this.lblErrorRow.Name = "lblErrorRow";
-            this.lblErrorRow.Size = new System.Drawing.Size(0, 21);
+            this.lblErrorRow.Size = new System.Drawing.Size(0, 20);
             this.lblErrorRow.TabIndex = 7;
             // 
             // lblError
@@ -228,7 +228,7 @@
             this.lblError.ForeColor = System.Drawing.Color.Red;
             this.lblError.Location = new System.Drawing.Point(583, 223);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 21);
+            this.lblError.Size = new System.Drawing.Size(0, 20);
             this.lblError.TabIndex = 7;
             // 
             // btn_show2
@@ -296,7 +296,7 @@
             this.txt_phone.Location = new System.Drawing.Point(179, 290);
             this.txt_phone.Mask = "+7 (999) 999-99999";
             this.txt_phone.Name = "txt_phone";
-            this.txt_phone.Size = new System.Drawing.Size(310, 20);
+            this.txt_phone.Size = new System.Drawing.Size(310, 19);
             this.txt_phone.TabIndex = 4;
             // 
             // cmbgender
@@ -307,9 +307,9 @@
             "Не выбрано",
             "Муж",
             "Жен"});
-            this.cmbgender.Location = new System.Drawing.Point(179, 214);
+            this.cmbgender.Location = new System.Drawing.Point(178, 214);
             this.cmbgender.Name = "cmbgender";
-            this.cmbgender.Size = new System.Drawing.Size(310, 29);
+            this.cmbgender.Size = new System.Drawing.Size(310, 28);
             this.cmbgender.TabIndex = 3;
             // 
             // panel7
@@ -373,7 +373,7 @@
             this.txt_confirmpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_confirmpassword.Location = new System.Drawing.Point(588, 343);
             this.txt_confirmpassword.Name = "txt_confirmpassword";
-            this.txt_confirmpassword.Size = new System.Drawing.Size(310, 20);
+            this.txt_confirmpassword.Size = new System.Drawing.Size(310, 19);
             this.txt_confirmpassword.TabIndex = 1;
             // 
             // label9
@@ -381,7 +381,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(583, 321);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(182, 21);
+            this.label9.Size = new System.Drawing.Size(184, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "Подтвердите пароль*:";
             // 
@@ -390,7 +390,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(174, 265);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 21);
+            this.label6.Size = new System.Drawing.Size(137, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "Номер телеона*:";
             // 
@@ -399,7 +399,7 @@
             this.txtpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtpassword.Location = new System.Drawing.Point(588, 282);
             this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(310, 20);
+            this.txtpassword.Size = new System.Drawing.Size(310, 19);
             this.txtpassword.TabIndex = 1;
             // 
             // label8
@@ -407,7 +407,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(583, 260);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 21);
+            this.label8.Size = new System.Drawing.Size(77, 20);
             this.label8.TabIndex = 0;
             this.label8.Text = "Пароль*:";
             // 
@@ -416,7 +416,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(173, 192);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 21);
+            this.label5.Size = new System.Drawing.Size(50, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "Пол*:";
             // 
@@ -425,7 +425,7 @@
             this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtusername.Location = new System.Drawing.Point(180, 366);
             this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(310, 20);
+            this.txtusername.Size = new System.Drawing.Size(310, 19);
             this.txtusername.TabIndex = 1;
             // 
             // label7
@@ -433,7 +433,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(176, 344);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(161, 21);
+            this.label7.Size = new System.Drawing.Size(163, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "Имя пользователя*:";
             // 
@@ -442,7 +442,7 @@
             this.txt_surname.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_surname.Location = new System.Drawing.Point(383, 118);
             this.txt_surname.Name = "txt_surname";
-            this.txt_surname.Size = new System.Drawing.Size(310, 20);
+            this.txt_surname.Size = new System.Drawing.Size(310, 19);
             this.txt_surname.TabIndex = 1;
             // 
             // label4
@@ -450,7 +450,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(379, 96);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 21);
+            this.label4.Size = new System.Drawing.Size(91, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "Фамилия*:";
             // 
@@ -459,7 +459,7 @@
             this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_name.Location = new System.Drawing.Point(383, 57);
             this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(310, 20);
+            this.txt_name.Size = new System.Drawing.Size(310, 19);
             this.txt_name.TabIndex = 1;
             // 
             // label10
@@ -468,7 +468,7 @@
             this.label10.ForeColor = System.Drawing.Color.Indigo;
             this.label10.Location = new System.Drawing.Point(3, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(288, 21);
+            this.label10.Size = new System.Drawing.Size(285, 20);
             this.label10.TabIndex = 0;
             this.label10.Text = "Поля отмеченные (*) - обязательны.";
             // 
@@ -477,13 +477,13 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(379, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 21);
+            this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "Имя*:";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1070, 553);
@@ -491,8 +491,9 @@
             this.Controls.Add(this.panelReginDone);
             this.Controls.Add(this.panelError);
             this.Controls.Add(this.pnl_Top);
-            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -82,7 +82,7 @@
             this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_username.Location = new System.Drawing.Point(107, 124);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(310, 20);
+            this.txt_username.Size = new System.Drawing.Size(310, 19);
             this.txt_username.TabIndex = 1;
             // 
             // pictureBox1
@@ -114,9 +114,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 99);
+            this.label1.Location = new System.Drawing.Point(109, 99);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 21);
+            this.label1.Size = new System.Drawing.Size(157, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Имя пользователя:";
             // 
@@ -132,9 +132,9 @@
             // txt_password
             // 
             this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_password.Location = new System.Drawing.Point(107, 224);
+            this.txt_password.Location = new System.Drawing.Point(107, 219);
             this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(310, 20);
+            this.txt_password.Size = new System.Drawing.Size(310, 19);
             this.txt_password.TabIndex = 1;
             // 
             // label2
@@ -142,7 +142,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(104, 191);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 21);
+            this.label2.Size = new System.Drawing.Size(71, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль:";
             // 
@@ -181,7 +181,7 @@
             this.label3.ForeColor = System.Drawing.Color.Indigo;
             this.label3.Location = new System.Drawing.Point(102, 368);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(221, 21);
+            this.label3.Size = new System.Drawing.Size(214, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Если нет аккаунта, нажите";
             // 
@@ -191,7 +191,7 @@
             this.linkLabel1.LinkColor = System.Drawing.Color.Indigo;
             this.linkLabel1.Location = new System.Drawing.Point(329, 368);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(54, 21);
+            this.linkLabel1.Size = new System.Drawing.Size(54, 20);
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "здесь";
@@ -213,7 +213,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(939, 428);
@@ -231,8 +231,9 @@
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_username);
             this.Controls.Add(this.pnl_Top);
-            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
