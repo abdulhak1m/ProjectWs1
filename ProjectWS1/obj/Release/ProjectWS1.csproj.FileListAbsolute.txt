@@ -34,3 +34,15 @@ C:\Users\user\Desktop\Проект\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.
 C:\Users\user\Desktop\Проект\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Проект\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.exe
 C:\Users\user\Desktop\Проект\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.pdb
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\bin\Release\ProjectWS1.exe.config
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\bin\Release\ProjectWS1.exe
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\bin\Release\ProjectWS1.pdb
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.csprojAssemblyReference.cache
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.Form1.resources
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.Form2.resources
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.Form3.resources
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.Properties.Resources.resources
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.csproj.GenerateResource.cache
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.csproj.CoreCompileInputs.cache
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.exe
+C:\Users\magom\Desktop\Новая версия программы\ProjectWs1\ProjectWS1\obj\Release\ProjectWS1.pdb

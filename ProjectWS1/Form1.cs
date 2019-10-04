@@ -69,5 +69,11 @@ namespace ProjectWS1
             }
             catch (Exception ex) { MessageBox.Show(ex.Message, ex.Source); }
         }
+
+        void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyValue == (char)Keys.Enter)
+                BtnLogin_Click(btnLogin, null);
+        }
     }
 }
